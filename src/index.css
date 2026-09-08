@@ -1,0 +1,23 @@
+@import "tailwindcss";
+
+@layer utilities {
+  .font-tactical {
+    font-family: 'Chakra Petch', system-ui, -apple-system, sans-serif;
+  }
+  .font-mono-num {
+    font-family: 'JetBrains Mono', monospace;
+  }
+  .hazard-stripes {
+    background-image: repeating-linear-gradient(
+      -45deg,
+      #f59e0b,
+      #f59e0b 10px,
+      #000000 10px,
+      #000000 20px
+    );
+  }
+  .dot-grid {
+    background-image: radial-gradient(#ffffff 1px, transparent 1px);
+    background-size: 32px 32px;
+  }
+}

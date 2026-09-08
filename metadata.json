@@ -1,0 +1,6 @@
+{
+  "name": "Boxrob - Physics Crane Puzzle",
+  "description": "Drive a forklift robot, operate the magnetic crane arm, solve warehouse physics puzzles, and load cargo boxes into the truck.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
